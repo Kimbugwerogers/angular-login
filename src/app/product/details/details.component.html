@@ -1,0 +1,45 @@
+
+<body>
+
+  <div *ngFor="let weekone of weekone">
+    <h1>Week <span>{{weekone.weekone_id}}</span></h1>
+
+    <p>sunday <span>{{weekone.sunday}}</span></p>
+    <p>Monday <span>{{weekone.monday}}</span></p>
+    <p>Tuesday <span>{{weekone.tuesday}}</span></p>
+    <p>Wednesday <span>{{weekone.wednesday}}</span></p>
+    <p>Thursday <span>{{weekone.thursday}}</span></p>
+    <p>Firday <span>{{weekone.firday}}</span></p>
+    <p>Saturday <span>{{weekone.saturday}}</span></p>
+
+    <p>Succ days <span>{{weekone.sumup}}</span></p>
+    <p>Failed days <span>{{weekone.sumup_down}}</span></p>
+    <p>Color <span>{{weekone.color}}</span></p>
+  </div>
+
+  <div class="container">
+
+    <!-- <div *ngIf="weekone">
+      <h1>Week <span>{{weekone.weekone_id}}</span></h1>
+
+      <p>sunday <span>{{weekone.sunday}}</span></p>
+      <p>Monday <span>{{weekone.monday}}</span></p>
+      <p>Tuesday <span>{{weekone.tuesday}}</span></p>
+      <p>Wednesday <span>{{weekone.wednesday}}</span></p>
+      <p>Thursday <span>{{weekone.thursday}}</span></p>
+      <p>Firday <span>{{weekone.firday}}</span></p>
+      <p>Saturday <span>{{weekone.saturday}}</span></p>
+
+      <p>Succ days <span>{{weekone.sumup}}</span></p>
+      <p>Failed days <span>{{weekone.sumup_down}}</span></p>
+      <p>Color <span>{{weekone.color}}</span></p>
+    </div> -->
+
+    <button class='btn btn-outline-secondary'
+    (click)='onBack()'
+    style='width:80px'>
+    <i class='fa fa-chevron-left'></i> Back
+    </button>
+
+  </div>
+</body>

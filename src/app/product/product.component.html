@@ -1,0 +1,48 @@
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 main spc">
+
+      <div class="sty">
+        <div class="sty1 ">
+            <h1>Month <span>ONE</span></h1>
+            <h2>July</h2>
+        </div>
+
+        <div class="sty1" *ngFor="let weekone of weekone">
+          <div [routerLink]="['/product', weekone.weekone_id]">
+            <p>Week one<p>
+                <p>{{weekone.color}}</p>
+                <p>succ days <span>{{weekone.sumup}}</span> <p>
+                  <p>faild days <span> {{weekone.sumup_down}}</span> <p></p>
+          </div>
+        </div>
+
+        <div class="sty1 " *ngFor="let weektwo of weektwo">
+          <div [routerLink]="['/product', weektwo.weekone_id]">
+                <p>Week Two<p>
+                 <p>{{weektwo.color}}</p>
+                <p>succ days <span> {{weektwo.sumup}}</span> <p>
+                <p>faild days <span>{{weektwo.sumup_down}}</span> <p>
+          </div>
+        </div>
+
+        <div class="sty1 " *ngFor="let weekthree of weekthree" >
+        <p>Week three<p>
+                <p>{{weekthree.color}}</p>
+                <p>succ days <span> {{weekthree.sumup}}</span> <p>
+                <p>faild days <span> {{weekthree.sumup_down}}</span> <p>
+        </div>
+
+        <div class="sty1 " *ngFor="let weekfour of weekfour" >
+        <p>Week Four</p>
+                <p>{{weekfour.color}}</p>
+                <p>succ days <span>{{weekfour.sumup}}</span> <p>
+                <p>faild days <span>{{weekfour.sumup_down}}</span> <p>
+        </div>
+
+    </div>
+
+    </div>
+  </div>
+</div>

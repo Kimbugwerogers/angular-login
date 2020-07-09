@@ -1,0 +1,8 @@
+CREATE TABLE `employee` (
+  `Id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(100) NOT NULL,
+  `pwd` varchar(100) NOT NULL,
+  `email` varchar(60) DEFAULT NULL,
+  `mobile` varchar(100) NOT NULL,
+  PRIMARY KEY (`Id`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8; 

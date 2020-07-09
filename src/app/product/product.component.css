@@ -1,0 +1,34 @@
+.main{
+  height: auto;
+  width: auto;
+}
+
+.spc{
+  margin: 1px;
+}
+.container .spc {
+  background: white;
+  border-radius: 15px;
+  box-shadow: -15px -15px 15px rgba(25,25,25, 0.1),
+      15px 15px 15px rgba(0,0,0,0.2);
+}
+
+.sty{
+  display: flex;
+  flex-direction: row;
+}
+
+.sty1{
+  height: auto;
+  width: 20%;
+  margin: 0.5%;
+}
+
+.sty .sty1 {
+  color: black;
+  background: white;
+  border-radius: 15px;
+  box-shadow: -15px -15px 15px rgba(25,25,25, 0.1),
+      15px 15px 15px rgba(0,0,0,0.2);
+}
+
